@@ -1,11 +1,10 @@
 body {
-   margin:10px:
    background-color:rgb(161, 217, 244); 
    text-align: center;
 } 
 h1 {
 background-color: aliceblue;
 border: 2px dodgerblue;
-border-radius: 5px;
+border-radius: 2px;
 border-style: inset;
 }
