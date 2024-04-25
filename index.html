@@ -1,75 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Who would buy their own name?</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <style>
-    body {
-      background-color: rgb(42, 42, 68);
-      color: #fff; /* Adjust text color for better contrast */
-    }
-    h1 {
-      text-align: center;
-      padding: 0px 50px 0px 0px;
-    }
-    .border-white {
-      border: 5px solid white;
-    }
-    .card-body a.btn {
-      background-color: maroon;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Digital Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="p-3 mb-2 bg-secondary text-white rounded border-white font">
-      <h1>Aleksander Grant</h1>
-    </div>
-  </header>
+    <header>
+        <h1>Aleksander Grant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <div class="row g-4">
-      <div class="col-md">
-        <div class="card border-white">
-          <div class="card-body">
-            <h5 class="card-title">D3 Hero</h5>
-            <p class="card-text">
-              <span>Short Stick Defensive Midfielder.</span><br>
-              <span class="small">Potentially currently on academic suspension.</span>
-            </p>
-            <a href="https://fdudevils.com/sports/mens-lacrosse/schedule" class="btn">Fairleigh Dickinson Lacrosse</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card border-white">
-          <div class="card-body">
-            <h5 class="card-title">Student of Computer Science</h5>
-            <p class="card-text">Knowledgeable in C#, Python, JS, HTML</p>
-            <a href="https://github.com/aleks-grant/" class="btn">Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card border-white">
-          <div class="card-body">
-            <h5 class="card-title">Local Legend</h5>
-            <p class="card-text">Pretty Legit</p>
-            <a href="https://www.instagram.com/aleksgrant_/" class="btn">Instagram</a>
-          </div>
-        </div>
-      </div>
-     </div>
-    </div>
-  </main>
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsam adipisci, perspiciatis velit nihil soluta dolores provident fugit excepturi omnis aliquid inventore assumenda sed obcaecati recusandae, debitis reprehenderit nisi quidem?.</p>
+    </section>
 
-  <footer>
-  </footer>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus officia unde harum velit molestiae mollitia, delectus earum placeat, quis nisi. A quia recusandae quidem optio alias neque tenetur modi?</p>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="projects">
+            <!-- Projects will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aleksander Grant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
