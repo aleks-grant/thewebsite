@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Light gray background */
+    background-color: #f5f5f5; 
 }
 
 header {
-    background-color: #800000; /* Maroon header */
+    background-color: #592222; 
     color: #f5f5f5;
     padding: 20px;
     text-align: center;
@@ -39,7 +39,8 @@ main {
 }
 
 section {
-    background-color: #e8e8e8; 
+    background-color: #dedede; 
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -65,7 +66,7 @@ input, textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #800000; 
+    background-color: #592222; 
     color: #f5f5f5;
     border: none;
     border-radius: 5px;
@@ -73,11 +74,11 @@ button {
 }
 
 button:hover {
-    background-color: #4d0000; 
+    background-color: #3d1515; 
 }
 
 footer {
-    background-color: #800000; 
+    background-color: #592222; 
     color: #f5f5f5;
     text-align: center;
     padding: 20px;
