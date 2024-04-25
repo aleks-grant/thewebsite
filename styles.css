@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; 
+    background-color: #aeaeae; 
 }
 
 header {
     background-color: #471717;
-    color: #aeaeae;
+    color: #f5f5f5;
     padding: 20px;
     text-align: center;
 }
@@ -30,7 +30,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #aeaeae;
+    color: #f5f5f5;
     font-size: 1.2rem;
 }
 
@@ -60,14 +60,14 @@ form {
 input, textarea {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #aeaeae;
+    border: 1px solid #f5f5f5;
     border-radius: 5px;
 }
 
 button {
     padding: 10px 20px;
     background-color: #471717;
-    color: #aeaeae;
+    color: #f5f5f5;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -79,7 +79,7 @@ button:hover {
 
 footer {
     background-color: #471717;
-    color: #aeaeae;
+    color: #f5f5f5;
     text-align: center;
     padding: 20px;
 }
